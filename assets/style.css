@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    text-decoration: none;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #cde1e2;
+    color: #393434;
+}
+
+.logo {
+    width: auto;
+    height: 40px;
+}
+
+nav {
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6px;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #393434;
+    font-weight: 500;
+}
+
+.glow-button a {
+    border: 2px solid #66c43b;
+    border-radius: 16px;
+    padding: 4px 8px;
+    color: #66c43b;
+}
+
+
+.glow-button a:hover {
+    background-color: #66c43b;
+    color: #fff;
+}
+
+.solid-button a {
+    background-color: #66c43b;
+    color: #fff;
+    border: 2px solid #66c43b;
+    border-radius: 16px;
+    padding: 4px 8px;
+}
+
+.solid-button a:hover {
+    background-color: #52a62d;
+    color: #fff;
+    border: 2px solid #52a62d;
+    cursor: pointer;
+}
+
+main {
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+main>img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.container {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.get-started {
+    background-color: #66c43b;
+    color: #fff;
+    border: 2px solid #66c43b;
+    margin-top: 20px;
+    width: 200px;
+    height: 48px;
+    text-align: center;
+    font-size: larger;
+    border-radius: 64px;
+    font-weight: 500;
+}
+
+.get-started-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.get-started {
+    background-color: #66c43b;
+    color: #fff;
+    border: 2px solid #66c43b;
+    margin-top: 20px;
+    width: 200px;
+    height: 48px;
+    text-align: center;
+    font-size: larger;
+    border-radius: 64px;
+    font-weight: 500;
+}
+
+.get-started:hover {
+    background-color: #52a62d;
+    color: #fff;
+    border: 2px solid #52a62d;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+    color: #393434;
+    font-size: 2.60rem;
+}
+
+.description-container {
+    width: 600px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.description {
+    text-align: center;
+    color: #393434;
+}
+
+footer {
+    background-color: #30384a;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f4f4f4;
+    margin-top: 40px;
+    height: 100px;
+}

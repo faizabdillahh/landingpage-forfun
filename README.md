@@ -1,8 +1,3 @@
-# I dedicated this project for fun to learn web dev trilogy
+# I make this repo for fun to learn web dev trilogy
 
-## List that i want to build
-- navbar
-- hero section
-- cta
-- 
-- footer
+- Build by html & css

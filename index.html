@@ -5,38 +5,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page - Trilogy</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/style.css">
 </head>
 
 <body>
     <header>
         <nav>
+            <header>
+                <img class="logo" src="assets/img/MonitorDuit-logo.png" alt="Logo MonitorDuit">
+            </header>
             <ul>
-                <li class="logo"><img src="assets/img/MonitorDuit-logo.png" alt="Logo MonitorDuit"></li>
                 <li class="nav-item"><a href="#">Pricing</a></li>
-                <li class="nav-item"><a href="#">Login</a></li>
-                <li class="nav-item glow-button"><a href="#">Contact Sales</a></li>
+                <li class="nav-item"><a href="#">Log in</a></li>
+                <li class="nav-item glow-button"><a href="#">Contact</a></li>
                 <li class="nav-item solid-button"><a href="#">Get Started</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <header>
-            <h1>Scan your receipts. Track your finances easily.</h1>
-        </header>
+        <div class="container">
+            <div>
+                <header>
+                    <h1>Scan your receipts. Track your finances easily.</h1>
+                </header>
+                <div class="description-container">
+                    <p class="description">MonitorDuit is a powerful receipt scanning app that helps you track your
+                        finances
+                        effortlessly. With our advanced OCR technology, you can easily digitize your receipts and manage
+                        your
+                        expenses in one place.</p>
+                </div>
+            </div>
+            <div class="get-started-container">
+                <button class="get-started">Get Started</button>
+                <p class="information">No credit card needed, try it now!</p>
+            </div>
 
-        <p class="description">MonitorDuit is a powerful receipt scanning app that helps you track your finances
-            effortlessly. With our advanced OCR technology, you can easily digitize your receipts and manage your
-            expenses in one place.</p>
-        <button class="solid-button">Get Started</button>
-        <p class="information">No credit card needed, try it now!</p>
+        </div>
 
         <img src="assets/img/monitor-duit-page.png" alt="Example of MonitorDuit app interface">
+
     </main>
     <footer>
-        <p>&copy; 2026 MonitorDuit. All rights reserved.</p>
+        <p>&copy; Build by M Faiz Abdillah, 40 minutes challenge for fun.</p>
     </footer>
 </body>
-<script src="script.js"></script>
 
 </html>
